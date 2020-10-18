@@ -1,0 +1,12 @@
+{% for k in ospfinfo["int"] %}
+int {{ k }}
+ip address {{ ospfinfo["int"][k] }}
+no shut
+exit
+{% endfor %}
+{% for j in range((ospfinfo["network"])|length) %}
+router ospf {{ ospfinfo["pid"] }}
+network {{ ospfinfo["network"][j] }} area {{ ospfinfo["area"] }}
+exit
+{% endfor %}
+

@@ -1,0 +1,15 @@
+{
+
+"R1":
+{"Interfaceout":["fa4/1"], "accesslist1": ["1 permit 198.51.0.0 0.0.255.255"], "Interfacein":["fa0/1","fa1/0","f0/0"]},
+
+"R2":
+{"Interfaceout":["fa4/1"], "accesslist1": ["1 permit 198.51.0.0 0.0.255.255"], "Interfacein":["fa0/1","fa1/0","f0/0"]},
+
+"R5":
+{"Interfaceout":["fa1/1","fa2/0","fa0/0"], "accesslist1": ["1 permit 205.0.0.0 0.0.255.255","2 permit 205.0.0.0 0.0.255.255","3 permit 205.0.0.0 0.0.255.255"], "Interfacein":["fa4/1"]},
+
+"R6":
+{"Interfaceout":["fa1/1","fa2/0","fa0/0"], "accesslist1": ["1 permit 205.0.0.0 0.0.255.255","2 permit 205.0.0.0 0.0.255.255","3 permit 205.0.0.0 0.0.255.255"], "Interfacein":["fa4/1"]}
+
+}

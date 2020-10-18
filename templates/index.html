@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<style>
+ body{
+   background-image:url('/static/bg02.jpg');
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+</style>
+<head>
+  <title>index.html</title>
+</head>
+<body>
+  <div align="center" style="border:1px solid grey">
+  <img src="/static/logo.jpg" width="150" height="150">
+  <h2 style="color:white"> Welcome to the Network Management and Automation Station</h2>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/m_ospf'">
+   Make OSPF configuration </button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/s_ospf'">
+   Push OSPF configuration </button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/m_bgp'">
+   Make BGP configuration </button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/m_nat'">
+   Make NAT configuration </button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/s_nat'">
+   Push NAT configuration </button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/s_bgp'">
+   Push BGP Configuration </button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/monitor'">
+   Network Monitoring </button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/f1'">
+   Global_Router_Troubleshoot</button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/f2'">
+   Individual_Router_Troubleshoot </button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/backup'">
+   Upload to S3 Bucket</button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/goldenconfig'">
+  Check golden config</button>
+  <br>
+  <hr>
+  <button onclick="window.location.href='http://127.0.0.1:1234/ipsecconfig'">
+  IPsecconfig</button>
+  </div>
+
+</body>
+</html>

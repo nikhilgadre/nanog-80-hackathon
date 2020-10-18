@@ -1,0 +1,9 @@
+{
+
+"R1":
+{"IP":"200.0.0.1","Interface":"fa4/1","LocalAS_number":"100","Neighbor_IP":"200.0.0.2","Neighbor_RemoteAS":"10","NetworksToAdvertise":"200.0.0.0","Mask":"255.255.255.252"},
+
+"R2":
+{"IP":"200.0.0.5","Interface":"fa4/1","LocalAS_number":"100","Neighbor_IP":"200.0.0.6","Neighbor_RemoteAS":"10","NetworksToAdvertise":"200.0.0.4","Mask":"255.255.255.252"}
+
+}

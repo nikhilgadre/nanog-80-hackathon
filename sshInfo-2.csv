@@ -1,0 +1,8 @@
+device_name,username,password,ip,device_type
+R1,test,test,192.168.100.1,cisco_ios
+R2,test,test,192.168.100.2,cisco_ios
+R3,test,test,192.168.100.3,cisco_ios
+R4,test,test,192.168.100.4,cisco_ios
+R5,test,test,192.168.100.5,cisco_ios
+R6,test,test,192.168.100.6,cisco_ios
+R12,test,test,192.168.100.99,cisco_ios

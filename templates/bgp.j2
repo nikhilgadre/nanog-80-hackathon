@@ -1,0 +1,8 @@
+interface {{bgpinfo['Interface']}}
+ip address {{bgpinfo['IP'] }} {{bgpinfo['Mask'] }}
+no shut 
+router bgp {{ bgpinfo['LocalAS_number'] }}
+neighbor {{ bgpinfo['Neighbor_IP'] }} remote-as {{ bgpinfo['Neighbor_RemoteAS'] }}
+network {{ bgpinfo['NetworksToAdvertise'] }} mask {{bgpinfo['Mask'] }}
+end
+

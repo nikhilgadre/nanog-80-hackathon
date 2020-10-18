@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<style>
+ body{
+   background-image:url('/static/bg02.jpg');
+height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+</style>
+<head>
+	<title>Enter Router show command</title>
+</head> 
+<body>
+  <div align="center" style="border:1px solid grey;background-color:black">
+  <img src="/static/logo.jpg" width="150" height="150">
+  <h2 style="color:white"> Network Management and Automation Station (NMAS) </h2>
+  <h4 align="center" style="color:white"> Version 1.0 </h4>
+ 
+<form method='POST' action="/clifun2">
+        <h4 align="center" style="color:white">Enter show command</h4>
+                <input type="text" name="cmd">
+	<h4 align="center" style="color:white">Enter host</h4>
+                <input type="text" name="host">
+	<h4 align="center" style="color:white">Enter username</h4>
+                <input type="text" name="username">
+	<h4 align="center" style="color:white">Enter password</h4>
+                <input type="text" name="password">
+	<h4 align="center" style="color:white">Enter device-type i.e cisco_ios</h4>
+                <input type="text" name="device_type">
+                <input class="text" type="submit" value="Submit">
+        </form>
+    </body>
+</html>

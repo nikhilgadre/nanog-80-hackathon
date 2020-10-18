@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<style>
+ body{
+   background-image:url('/static/bg02.jpg');
+height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  }
+</style>
+<head>
+  <title>monitor.html</title>
+</head> 
+<body>
+  <div align="center" style="border:1px solid grey;background-color:black">
+  <img src="/static/logo.jpg" width="150" height="150">
+  <h2 style="color:white"> Network Management and Automation Station (NMAS) </h2>
+  <h4 align="left" style="color:white"> Version 1.0 </h4>
+  <hr>
+  {% for i in data %}
+  <h5 style="color:white" align="center"> {{i}}
+  </h5>
+  {% endfor %}
+ <hr>
+  <h3 style="color:white"> press
+   <a href="http://127.0.0.1:1234/">here</a>
+   to return to home page.
+  </h3>
+  </div>
+  
+</body>
+</html>

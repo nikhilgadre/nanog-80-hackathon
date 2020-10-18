@@ -1,0 +1,23 @@
+{% for k in natinfo["Interfaceout"] %}
+interface {{ k }}
+ip nat outside
+{% endfor %}
+
+{% for k in natinfo["Interfacein"] %}
+int {{ k }}
+ip nat inside
+{% endfor %}
+
+{% for k in natinfo["accesslist1"] %}
+access-list {{ k }}
+{% endfor %}
+
+{% set count=namespace(value=1) %}
+{% if natinfo["accesslist1"] | length == 1 %}
+ip nat inside source list 1 interface {{natinfo["Interfaceout"][0]}} overload
+{% else %}
+	{% for k in natinfo["Interfaceout"] %}
+ip nat inside source list {{count.value}} interface {{k}} overload
+	{% set count.value=count.value +1 %}
+	{% endfor %}
+{% endif %}

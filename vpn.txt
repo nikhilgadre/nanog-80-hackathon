@@ -1,0 +1,39 @@
+crypto isakmp policy 1
+ encr aes
+ authentication pre-share
+ group 2
+crypto isakmp key MYPASSWORD address 60.0.0.2
+
+crypto ipsec transform-set MYTRANSFORMSET esp-aes esp-sha-hmac
+ mode tunnel
+
+crypto map CRYPTOMAP 10 ipsec-isakmp
+ set peer 60.0.0.2
+ set transform-set MYTRANSFORMSET
+ match address 100
+
+interface Loopback0
+ ip address 1.1.1.1 255.255.255.255
+
+interface Loopback1
+ ipv6 address 2001::1/128
+
+interface FastEthernet1/1
+ ip address 70.70.70.1 255.255.255.0
+ no shut
+
+interface Tunnel0
+ ipv6 address 2002:4646:4601::1/64
+ tunnel source FastEthernet1/1
+ tunnel mode ipv6ip 6to4
+
+router ospf 1
+ network 1.1.1.1 0.0.0.0 area 0
+ network 70.70.70.0 0.0.0.255 area 0
+
+access-list 100 permit ip host 1.1.1.1 host 2.2.2.2
+ipv6 route 2001::3/128 2002:3C00:2::3
+ipv6 route 2002::/16 Tunnel0
+
+interface FastEthernet1/1
+ crypto map CRYPTOMAP
