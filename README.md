@@ -18,7 +18,7 @@ Tools to be used:
 
 **PoC for design:**
 
-![](RackMultipart20201018-4-bkk91x_html_fc2f34774c0f6e10.png)
+![](https://github.com/nikhilgadre/nanog-80-hackathon/blob/main/GNS3_topo.png)
 
 **Assumptions:**
 
