@@ -49,11 +49,11 @@ Tools to be used:
 - Redundancy
   - Default gateway
   
-**SLides**
+**SLides:**
 
 https://drive.google.com/file/d/1IVQow1GjYozHyZSwK4InXB7k4wA49lJr/view?usp=sharing
 
-**DEMO Video**
+**DEMO Video:**
 
 https://drive.google.com/file/d/1Q_ww6eV98c1BJz-26P1GTJ6v4T8Mfy6o/view?usp=sharing
 
