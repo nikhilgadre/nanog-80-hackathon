@@ -51,7 +51,12 @@ Tools to be used:
   
 **SLides**
 
-https://drive.google.com/file/d/1RWjprcQw7sdYCnvi2o-bZofuM7ZwnL4T/view?usp=sharing
+https://drive.google.com/file/d/1IVQow1GjYozHyZSwK4InXB7k4wA49lJr/view?usp=sharing
+
+**DEMO Video**
+
+https://drive.google.com/file/d/1Q_ww6eV98c1BJz-26P1GTJ6v4T8Mfy6o/view?usp=sharing
+
 
 **How to use:**
 
