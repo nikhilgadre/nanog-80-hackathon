@@ -48,7 +48,8 @@ Tools to be used:
   - Access Lists
 - Redundancy
   - Default gateway
-
+**SLides**
+https://drive.google.com/file/d/1RWjprcQw7sdYCnvi2o-bZofuM7ZwnL4T/view?usp=sharing
 **How to use:**
 
 - Enable management interfaces on all the desired devices
