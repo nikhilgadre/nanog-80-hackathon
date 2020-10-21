@@ -51,7 +51,7 @@ Tools to be used:
   
 **SLides**
 
-(https://drive.google.com/file/d/1RWjprcQw7sdYCnvi2o-bZofuM7ZwnL4T/view?usp=sharing)
+https://drive.google.com/file/d/1RWjprcQw7sdYCnvi2o-bZofuM7ZwnL4T/view?usp=sharing
 
 **How to use:**
 
