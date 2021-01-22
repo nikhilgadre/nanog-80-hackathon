@@ -49,7 +49,7 @@ Tools to be used:
 - Redundancy
   - Default gateway
   
-**SLides:**
+**Slides:**
 
 https://drive.google.com/file/d/1IVQow1GjYozHyZSwK4InXB7k4wA49lJr/view?usp=sharing
 
